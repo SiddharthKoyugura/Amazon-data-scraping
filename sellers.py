@@ -16,17 +16,12 @@ service = Service(chrome_driver_path)
 # Create a new instance of the Chrome driver
 def get_seller_names(url):
     driver = webdriver.Chrome(service=service, options=chrome_options)
-    # url = 'https://www.amazon.in/s?rh=n%3A6612025031&fs=true&ref=lp_6612025031_sar'
+
     # Open a webpage
     driver.get(url)
 
     prices = driver.find_elements(By.CSS_SELECTOR, "a.a-link-normal.s-underline-text.s-underline-link-text.s-link-style.a-text-normal")
     prices = prices[::2]
-    count = 1
-    # for price in prices:
-    #     price.click()
-    # prices[0].click()
-    # sleep(3)
     sellers = []
     for price in prices:
         price.click()
