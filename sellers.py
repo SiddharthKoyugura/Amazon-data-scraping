@@ -1,3 +1,4 @@
+# Import the modules
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
@@ -8,7 +9,6 @@ chrome_driver_path = "D:\Apps\chromedriver.exe"
 
 # Configure Chrome options
 chrome_options = Options()
-# chrome_options.add_argument("--headless")  # Run Chrome in headless mode
 
 # Set up the ChromeDriver service
 service = Service(chrome_driver_path)
