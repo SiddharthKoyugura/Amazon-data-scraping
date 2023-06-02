@@ -16,7 +16,7 @@ Run in Terminal:-
 
 ## Data to be scraped
 
-<a href='https://www.amazon.in/s?rh=n%3A6612025031&fs=true&ref=lp_6612025031_sar'>Product Page</a>
+<a href='https://www.amazon.in/s?rh=n%3A6612025031&fs=true&ref=lp_6612025031_sar' target="_blank">Product Page</a>
 ![a](https://github.com/SiddharthKoyugura/Amazon-data-sraping/assets/93535758/10c13423-9fd3-4ff9-88ec-09cacd96a69d)
 
 ## Scraped data (Output)
