@@ -1,4 +1,4 @@
-# Amazon-data-sraping
+# Amazon-data-scraping
 As part of task 1 at Banao technologies, I've scraped the amazon product website and the program creates a csv file with the scraped data 
 
 ## Run
